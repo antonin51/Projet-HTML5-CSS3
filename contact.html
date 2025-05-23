@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2bb90c57b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body id="contact-body">
+    <header class="container">
+      <a class="a" href="#">Antonin Doliwa</a>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Projets</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-bars burgermenu"></i>
+    </header>
+
+    <main>
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <p>
+          Vous avez un projet en tête ou une question ? N'hésitez pas à me
+          contacter, je vous répondrai dans les plus brefs délais.
+        </p>
+        <div id="contact-container">
+          <form action="#">
+            <div>
+              <div>
+                <label for="name" class="p16-500">Nom</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="email" class="p16-500">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div>
+              <label for="message" class="p16-500">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <label for="RGPD">
+                <p>
+                  <input type="checkbox" name="RGPD" id="RGPD" required />
+                  J'accepte que mes données soient traitées conformément à la
+                  politique de confidentialité. Elles ne seront utilisées que
+                  pour répondre à ma demande.
+                </p>
+              </label>
+            </div>
+            <a class="p16-500" href="#">Envoyer le message</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div id="footer-container" class="container">
+        <div>
+          <a href="#">Antonin Doliwa</a>
+          <p class="p16">Développeur Web Full-Stack & Designer UI/UX</p>
+        </div>
+        <div>
+          <div>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <p>© 2025 Antonin Doliwa. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

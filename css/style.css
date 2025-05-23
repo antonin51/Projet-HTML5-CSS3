@@ -111,7 +111,6 @@ h3 {
       #presentation-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 520px 15px;
         color: var(--white);
         article {
           > .p16 {
@@ -119,7 +118,7 @@ h3 {
             padding-bottom: 25px;
           }
           > .p18 {
-            width: 63%;
+            width: 500px;
             padding-bottom: 35px;
           }
           a {
@@ -252,12 +251,13 @@ h3 {
       > p {
         text-align: center;
         padding-bottom: 50px;
-        width: 24%;
+        width: 600px;
         justify-self: center;
       }
       #contact-container {
+        margin-bottom: 75px;
         background-color: #f9fafb;
-        width: 24%;
+        width: 600px;
         justify-self: center;
         padding: 20px;
         form {
@@ -305,6 +305,35 @@ h3 {
             color: white;
             border: none;
           }
+        }
+      }
+    }
+  }
+  footer {
+    padding: 50px 0;
+    background-color: #2d3047;
+    color: var(--white);
+    #footer-container {
+      display: flex;
+      justify-content: space-between;
+      div:nth-child(1) {
+        a {
+          font-family: var(--playfair-display);
+          font-weight: 700;
+          font-size: 24px;
+          color: var(--white);
+        }
+      }
+      div:nth-child(2) {
+        align-content: center;
+        div {
+          display: flex;
+          justify-content: end;
+          gap: 20px;
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
         }
       }
     }

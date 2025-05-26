@@ -594,4 +594,36 @@ footer {
       }
     }
   }
+  #contact-body {
+    main {
+      #contact {
+        > p {
+          width: auto;
+          padding: 0 15px 50px 15px;
+        }
+        #contact-container {
+          width: auto;
+          form {
+            div:nth-child(1) {
+              grid-template-columns: 1fr;
+            }
+          }
+        }
+      }
+    }
+  }
+  #projet-body {
+    main {
+      #projet {
+        #projet-container {
+          > p {
+            width: auto;
+          }
+          > div {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+    }
+  }
 }

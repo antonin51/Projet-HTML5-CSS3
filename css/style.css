@@ -522,17 +522,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    nav {
+      display: none;
+    }
+    .burgermenu {
+      display: block;
+    }
+  }
   #index {
     h1 {
       font-size: 28px;
-    }
-    header {
-      nav {
-        display: none;
-      }
-      .burgermenu {
-        display: block;
-      }
     }
     main {
       #presentation {
